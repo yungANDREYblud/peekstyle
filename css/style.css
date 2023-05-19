@@ -38,7 +38,7 @@ header{
 }
 
 .logo .menu{
-    width: 80%;
+    width: 50%;
 }
 .logo .menu nav ul{
     display: grid;
@@ -92,6 +92,7 @@ header{
 .ban span{
     font-size: 300%;
     color: #AAB2BA;
+    cursor: pointer;
 }
 
 #btnLeft {
@@ -123,6 +124,7 @@ header{
 .brend-items img{
     border: 1px solid black;
     border-radius: 5px;
+    cursor: pointer;
 }
 .brend-items img:hover{
     background-color: rgba(0, 0, 0, 0.8);
@@ -130,3 +132,114 @@ header{
 .brend hr{
     border: 1px solid black;
 }
+
+.new{
+    padding-top: 90px;
+}
+.new h1{
+    text-align: center;
+}
+.new .tr{
+    padding-top: 76px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    row-gap: 80px;
+    padding-bottom: 93px;
+}
+.new .tr .tr-items img{
+    cursor: pointer;
+}
+.tr-items img:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.new .tr .tr-items .text{
+    padding-top: 9px;
+    width: 340px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.new hr{
+    border: 1px solid black;
+}
+
+.par{
+    padding-top: 78px;
+}
+.par h1{
+    text-align: center;
+    font-size: 35px;
+}
+.par .par-img{
+    display: flex;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    column-gap: 53px;
+    padding-top: 50px;
+    padding-bottom: 133px;
+}
+.par .par-img img{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+footer{
+    padding-left: 76px;
+    padding-right: 76px;
+    height: 350px;
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.first{
+    width: 180px;
+    padding-top: 11px;
+}
+.first .first-items p{
+    padding-top: 13px;
+}
+.second{
+    padding-top: 40px;
+    text-align: center;
+}
+.second .second-content p{
+    padding-top: 30px;
+}
+.second .second-items{
+    padding-top: 30px;
+}
+
+.second .second-items p{
+    padding-top: 30px;
+}
+.third{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+.third nav ul{
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    row-gap: 28px;
+}
+
+.third nav ul li:hover{
+    color: var(--color_orange);
+}
+.fourth{
+    padding-top: 40px;
+    text-align: right;
+}
+.fourth .fourth-content{
+    padding-left: 244px;
+}
+.fourth .fourth-content p{
+    padding-top: 11px;
+}
+.fourth .fourth-items{
+    padding-right: 80px;
+}
+
